@@ -13,7 +13,7 @@ sd=np.std(arr)
 
 print("-----Grade Analyzer-----")
 print(f"Average = {average}")
-print(f"Highest = {highest}")
+print(f"Highest = {highest} scored by {name[arr==highest]}")
 print(f"lowest = {lowest}")
 print(f"Median = {median}")
 print(f"Standard Deviation = {sd:.2f}")
